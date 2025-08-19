@@ -2174,7 +2174,7 @@ input, select, textarea {
 		}
 
 	select {
-		background-image: url("/assets/icons/selecteren.svg");
+		background-image: url("https://res.cloudinary.com/xerosradio/image/upload/v1755633643/RadioCDN/sites/carcleaningbeerenhout/selecteren_uueeeo.svg");
 		background-size: 1.25rem;
 		background-repeat: no-repeat;
 		background-position: calc(100% - 1rem) center;
@@ -2633,7 +2633,7 @@ input, select, textarea {
 					left: 0;
 					width: 100%;
 					height: 100%;
-					background-image: url("/assets/icons/icoon.svg");
+					background-image: url("https://res.cloudinary.com/xerosradio/image/upload/v1755633643/RadioCDN/sites/carcleaningbeerenhout/icoon_oleot7.svg");
 					background-position: center;
 					background-repeat: no-repeat;
 					background-size: 100% 100%;
@@ -2927,12 +2927,12 @@ input, select, textarea {
 						}
 
 						#header nav ul li a[href="#menu"]:before {
-							background-image: url("/assets/icons/menu-geel.svg");
+							background-image: url("https://res.cloudinary.com/xerosradio/image/upload/v1755633642/RadioCDN/sites/carcleaningbeerenhout/menu-geel_mfyeln.svg");
 							opacity: 0;
 						}
 
 						#header nav ul li a[href="#menu"]:after {
-							background-image: url("/assets/icons/menu-grijs.svg");
+							background-image: url("https://res.cloudinary.com/xerosradio/image/upload/v1755633642/RadioCDN/sites/carcleaningbeerenhout/menu-grijs_m62clt.svg");
 							opacity: 1;
 						}
 
@@ -3077,12 +3077,12 @@ input, select, textarea {
 			}
 
 			#menu > .close:before {
-				background-image: url("/assets/icons/kruis-geel.svg");
+				background-image: url("https://res.cloudinary.com/xerosradio/image/upload/v1755633642/RadioCDN/sites/carcleaningbeerenhout/kruis-geel_o4srbw.svg");
 				opacity: 0;
 			}
 
 			#menu > .close:after {
-				background-image: url("/assets/icons/kruis-grijs.svg");
+				background-image: url("https://res.cloudinary.com/xerosradio/image/upload/v1755633642/RadioCDN/sites/carcleaningbeerenhout/kruis-grijs_v1ctn3.svg");
 				opacity: 1;
 			}
 
