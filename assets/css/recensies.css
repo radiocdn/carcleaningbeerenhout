@@ -1,0 +1,58 @@
+	.rcw-widget{
+  width:100%;
+  background:linear-gradient(180deg,rgba(255,255,255,.03),rgba(255,255,255,.01));
+  border:1px solid rgba(255,255,255,.05);
+  border-radius:var(--radius);
+  padding:20px;
+  box-shadow:0 6px 22px rgba(0,0,0,.35);
+  align-self: center;
+  align-items: center;
+  align-content: center;
+}
+.rcw-header{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+.rcw-logo{
+  width:60px;height:60px;border-radius:12px;
+  background:linear-gradient(135deg,var(--accent),var(--accent2));
+  display:flex;align-items:center;justify-content:center;
+  font-weight:700;font-size:18px;color:#fff;
+}
+.rcw-info{display:flex;flex-direction:column}
+.rcw-info .title{font-weight:700;font-size:18px}
+.rcw-info .sub{color:var(--muted);font-size:13px}
+
+.carousel{
+  position:relative;
+  overflow:hidden;
+  height:230px;
+  margin-top:14px;
+}
+.carousel-track{
+  display:flex;
+  transition:transform .5s ease;
+}
+.review-card{
+  flex:0 0 100%;
+  padding:18px;
+  border-radius:10px;
+  background:rgba(255,255,255,.02);
+  border:1px solid rgba(255,255,255,.05);
+}
+.review-head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.review-name{font-weight:600;font-size:15px}
+.review-title{color:var(--muted);font-size:13px}
+.review-body{font-size:14px;line-height:1.45;margin-top:8px}
+.review-date{font-size:12px;color:var(--muted);margin-top:8px}
+.star{width:16px;height:16px;display:inline-block;color:var(--accent)}
+
+.prev{left:10px}
+.next{right:10px}
+
+.stars{display:flex;gap:3px}
+.rcw-footer{
+  display:flex;justify-content:center;margin-top:16px;
+}
+
+@media(max-width:600px){
+  .carousel{height:auto}
+  .review-card{flex:0 0 100%;min-height:auto}
+}
