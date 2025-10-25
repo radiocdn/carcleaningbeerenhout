@@ -158,7 +158,7 @@ async function addWidget(
            <svg width="8" height="15" viewBox="0 0 8 15" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: block">
              <path d="M3 15V9H0L5 0V6H8L3 15Z" fill="#999999" />
            </svg>
-           <a rel="noopener noreffer" href="https://radiocdn.pages.dev" target="_blank" class="si-chat-box-poweredby-link">Powered by <b>RadioCDN</b></a>
+           <a rel="noopener noreffer" href="https://radiocdn.pages.dev" target="_blank" class="si-chat-box-poweredby-link">Mogelijk gemaakt door <b>RadioCDN</b></a>
        </div>
    </div>`
     );
