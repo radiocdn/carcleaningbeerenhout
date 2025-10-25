@@ -1,0 +1,4 @@
+var wa_btnSetting = {"btnColor":"#16BE45","ctaText":"WhatsApp","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"right","whatsAppNumber":"31612639041","welcomeMessage":"CarCleaningBeerenhout:","zIndex":999999,"btnColorScheme":"light"};
+          window.onload = () => {
+            _waEmbed(wa_btnSetting);
+          };
