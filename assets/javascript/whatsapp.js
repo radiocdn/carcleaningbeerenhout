@@ -1,4 +1,4 @@
-    var url = 'https://whatsapp.socialintents.com/api/chat/siwhatsapp.1.0.js';
+    var url = 'https://cdn.carcleaningbeerenhoutemmen.nl/dist/minified/siwhatsapp.1.0.min.js';
     var s = document.createElement('script');s.type = 'text/javascript';s.async = true;s.src = url;
     var chatSettings = {
         "backgroundColor": "#25d366",
@@ -7,7 +7,7 @@
         "marginBottom": "25",
         "marginLeft": "0",
         "marginRight": "25",
-        "logo": "https://whatsapp.socialintents.com/images/whatsapp.png",
+        "logo": "https://res.cloudinary.com/xerosradio/image/upload/f_webp,q_auto/v1/RadioCDN/sites/carcleaningbeerenhout/whatsapp_icon",
         "ctaText": "Chat met ons!",
         "chatIcon": "1",
         "chatIconImageUrl": "",
