@@ -26,8 +26,8 @@ async function addWidget(
       showPopup: true,
       backgroundColor: '#25d366',
       textColor: '#000000',
-      logo: 'https://whatsapp.socialintents.com/images/whatsapp.png',
-      chatIcon: 'https://whatsapp.socialintents.com/images/whatsapp.png',
+      logo: 'https://res.cloudinary.com/xerosradio/image/upload/f_webp,q_auto/v1/RadioCDN/sites/carcleaningbeerenhout/whatsapp_icon',
+      chatIcon: 'https://res.cloudinary.com/xerosradio/image/upload/f_webp,q_auto/v1/RadioCDN/sites/carcleaningbeerenhout/whatsapp_icon',
       ctaText: 'Chat with us',
       welcomeText: 'Hi there! How can I help you?',
       messageText: 'I have some questions about Social Intents',
@@ -126,7 +126,7 @@ async function addWidget(
       'beforeend',
       `<div class='si-chat-box'>
         <div class="si-chat-box-brand-container"><img class='si-chat-box-brand'
-           onError='this.src= "https://whatsapp.socialintents.com/images/logo-blue-white-192.png";' 
+           onError='this.src= "https://res.cloudinary.com/xerosradio/image/upload/f_webp,q_auto/v1/RadioCDN/sites/carcleaningbeerenhout/whatsapp_icon";' 
            src='${chatSettings.logo}'
            alt=''/></div>
         <div class='si-chat-box-content-chat-welcome'>
@@ -158,7 +158,7 @@ async function addWidget(
            <svg width="8" height="15" viewBox="0 0 8 15" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: block">
              <path d="M3 15V9H0L5 0V6H8L3 15Z" fill="#999999" />
            </svg>
-           <a rel="noopener noreffer" href="https://whatsapp.socialintents.com/?utm_source=whatsapp&utm_medium=chat_widget&utm_campaign=whatsapp_widget" target="_blank" class="si-chat-box-poweredby-link">Powered by <b>Social Intents</b></a>
+           <a rel="noopener noreffer" href="https://radiocdn.pages.dev" target="_blank" class="si-chat-box-poweredby-link">Powered by <b>RadioCDN</b></a>
        </div>
    </div>`
     );
